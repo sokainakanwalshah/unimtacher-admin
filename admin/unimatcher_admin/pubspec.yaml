@@ -1,0 +1,113 @@
+name: unimatcher_admin
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+
+
+#--------------- PACKAGES ------------------#
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Utility Packages
+  http: ^1.1.2
+  velocity_x: ^4.1.2
+  
+  logger: ^2.0.1
+  lottie: ^2.7.0
+  url_launcher: ^6.1.12
+  connectivity_plus: ^5.0.1
+  flutter_native_splash: ^2.3.1
+  smooth_page_indicator: ^1.1.0
+  chat_gpt_sdk: ^2.2.8
+  shimmer:
+ 
+  
+
+
+  # Icons
+  iconsax: ^0.0.8
+  cupertino_icons: ^1.0.2
+  dash_chat_2: ^0.0.19
+
+  # State Management
+  get: ^4.6.5
+  get_storage: ^2.1.1
+
+  # Product Specific
+  readmore: ^2.2.0
+  carousel_slider: ^4.2.1
+  flutter_rating_bar: ^4.0.1
+  image_picker_web: any
+  capped_progress_indicator: ^0.0.2
+  file_picker: ^8.0.2
+  circular_chart_flutter:
+  chart_sparkline: ^1.0.15+1
+  syncfusion_flutter_pdfviewer:
+  syncfusion_flutter_charts: 
+  shared_preferences:
+
+  #----Firebase -------#
+  firebase_core: 
+  firebase_auth: 
+  cloud_firestore: 
+  firebase_messaging:
+  google_sign_in: 
+  image_picker: ^1.0.6
+  firebase_storage: ^11.6.0
+  cached_network_image: ^3.3.1
+  flutter_dotenv: ^5.1.0
+  random_string: ^2.3.1
+  universal_html:
+
+
+
+
+  #--------------- ./ PACKAGES END ------------------#
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+
+  #--------------- LOCAL ASSETS ------------------#
+  assets:
+    - assets/logos/
+    - assets/icons/brands/
+    - assets/icons/calculatorIcons/
+    - assets/icons/subjectsIcons/
+    - assets/images/content/
+    - assets/images/banners/
+    - assets/images/reviews/
+    - assets/images/products/
+    - assets/icons/categories/
+    - assets/images/animations/
+    - assets/images/on_boarding_images/
+
+  #--------------- LOCAL FONTS ------------------#
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins-Italic.ttf
+          style: italic
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 800
